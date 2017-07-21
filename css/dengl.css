@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.yunduan {
+  margin-left: 250px;
+  margin-top: 15px; }
+  .yunduan img {
+    width: 200px;
+    height: 60px; }
+
+.yunduan_banner {
+  width: 100%; }
+  .yunduan_banner img {
+    width: 100%;
+    height: 560px; }
+
+.yonghu {
+  width: 340px;
+  height: 330px;
+  background-color: white;
+  position: absolute;
+  left: 850px;
+  top: 180px; }
+  .yonghu h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px; }
+  .yonghu #tishi {
+    width: 259px;
+    height: 26px;
+    background-color: #fff6d2;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    visibility: hidden; }
+    .yonghu #tishi p {
+      font-size: 12px;
+      color: #fb0303;
+      line-height: 26px;
+      text-align: center; }
+  .yonghu #zhanghu {
+    width: 259px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 20px; }
+    .yonghu #zhanghu img {
+      width: 33px;
+      height: 36px; }
+    .yonghu #zhanghu input {
+      width: 226px;
+      height: 34px;
+      border: 1px solid #ccc; }
+    .yonghu #zhanghu input:hover {
+      border: 1px solid #96c6f9; }
+  .yonghu #mima {
+    width: 259px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; }
+    .yonghu #mima img {
+      width: 33px;
+      height: 36px; }
+    .yonghu #mima input {
+      width: 226px;
+      height: 34px;
+      border: 1px solid #ccc; }
+    .yonghu #mima input:hover {
+      border: 1px solid #96c6f9; }
+
+#xuanze {
+  width: 259px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto; }
+  #xuanze div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px; }
+
+#denglu {
+  width: 260px;
+  margin: 0 auto; }
+  #denglu input {
+    width: 260px;
+    height: 36px;
+    background-color: #3e7ee7;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer; }
+
+#xin p {
+  margin-left: 230px; }
+
+.yj {
+  text-align: center;
+  padding-top: 30px; }
+  .yj p {
+    color: #666666; }
+
+/*# sourceMappingURL=dengl.css.map */

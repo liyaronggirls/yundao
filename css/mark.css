@@ -1,0 +1,327 @@
+.oLi_1 > a {
+  color: #539BF7; }
+	.mark header {
+	width: 1200px;
+	margin: 0 auto;
+	height: 100px;
+	position: relative;
+	font-size: 18px;}
+	.mark header .xiala_2 {
+		z-index: 100;
+		display: none;
+		width: 130px;
+		position: absolute;
+		background-color: #fff;
+		top: 30px;
+		left: -50px;
+		padding: 0 20px;
+	}
+	.mark header .xiala_2>ul {
+		line-height: 30px;
+	}
+	.mark header .xiala_2>ul>li>a {
+		font-size: 14px;
+	}
+	.mark header .xiala_2>ul>li>a:hover {
+		color: #2288F6;
+	}
+	.mark header .head_left {
+		float: left;
+		margin-top: 20px;
+	}
+	.mark header .head_right {
+		float: right;
+	}
+	.mark header .head_right>ul {
+		height: 100px;
+		line-height: 100px;
+	}
+	.mark header .head_right>ul>li {
+		float: left;
+		margin-right: 40px;
+	}
+	.mark header .head_right>ul>li:last-child {
+		margin: 0;
+	}
+	.mark header .head_right>ul>li:nth-child(2) {
+		position: relative;
+	}
+	.mark header .head_right>ul>li:nth-child(2) .xiala {
+		z-index: 100;
+		display: none;
+		width: 400px;
+		position: absolute;
+		background-color: #fff;
+		top: 100px;
+		left: -45px;
+		padding: 0 50px;
+	}
+	.mark header .head_right>ul>li:nth-child(2) .xiala>h4 {
+		line-height: 50px;
+		border-bottom: 1px solid #000000;
+	}
+	.mark header .head_right>ul>li:nth-child(2) .xiala>ul {
+		line-height: 25px;
+	}
+	.mark header .head_right>ul>li:nth-child(2) .xiala>ul>li>a {
+		font-size: 14px;
+	}
+	.mark header .head_right>ul>li:nth-child(2) .xiala>ul>li>a:hover {
+		color: #2288F6;
+	}
+	.mark header .head_right>ul>li:nth-child(2) .xiala>ul>li>p {
+		font-size: 12px;
+		color: #A5A5A5;
+	}
+	.mark header .posi {
+		font-size: 14px;
+		position: absolute;
+		right: 0;
+		top: 10px;
+	}
+	.mark header .posi>a {
+		color: #363636;
+	}
+	.mark header .posi>a:hover {
+		color: #2288F6;
+	}
+	
+	.mark .banner {
+  width: 100%;
+  height: 620px;
+  margin-bottom: 64px;
+  overflow: hidden;
+  position: relative; }
+  .mark .banner > ul {
+    position: absolute; }
+    .mark .banner > ul > li {
+      float: left; }
+      .mark .banner > ul > li > a > img {
+        width: 100%;
+        height: 620px; }
+  .mark .banner .dian {
+    position: absolute;
+    left: 48%;
+    bottom: 20px; }
+    .mark .banner .dian > ul > li {
+      float: left;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: #FFFFFF;
+      margin-right: 10px; }
+      .mark .banner .dian > ul > li:hover {
+        width: 10px;
+        height: 10px;
+        border: 1px solid #FFFFFF;
+        background: transparent; }
+	
+	.mark .mark_top {
+		width: 1200px;
+		margin: 0 auto;
+		position: relative;
+	}
+	.mark .mark_top .l_div {
+		width: 434px;
+		height: 1px;
+		background: #ccc;
+		position: absolute;
+		top: 12px;
+		left: 100px;
+	}
+	.mark .mark_top .r_div {
+		width: 434px;
+		height: 1px;
+		background: #ccc;
+		position: absolute;
+		top: 12px;
+		right: 100px;
+	}
+	.mark .mark_top h2 {
+		text-align: center;
+		font-size: 18px;
+	}
+	.mark .mark_top .tit_fu {
+		text-align: center;
+		color: #999;
+	}
+	.mark .mark_top ul {
+		padding: 50px 100px 100px;
+	}
+	.mark .mark_top ul li {
+		float: left;
+	}
+	.mark .mark_top ul li div {
+		text-align: center;
+	}
+	.mark .mark_top ul li p:nth-of-type(1) {
+		text-align: center;
+		color: #333;
+		font-size: 18px;
+		font-weight: bold;
+	}
+	.mark .mark_top ul li p:nth-of-type(2) {
+		color: #999;
+		font-size: 12px;
+	}
+	.mark .mark_top ul li p:nth-of-type(3) {
+		color: #999;
+		font-size: 12px;
+	}
+	.mark .mark_top ul li:nth-of-type(1) {
+		width: 220px;
+	}
+	.mark .mark_top ul li:nth-of-type(2) {
+		width: 326px;
+		margin-left: 82px;
+		margin-right: 82px;
+	}
+	.mark .mark_top ul li:nth-of-type(3) {
+		width: 289px;
+	}
+	.mark .mark_middle {
+		background: #fafafa;
+	}
+	.mark .mark_middle .mark_zi {
+		width: 1200px;
+		margin: 0 auto;
+		position: relative;
+		padding: 64px 0 90px 0;
+	}
+	.mark .mark_middle .mark_zi .l_div {
+		width: 434px;
+		height: 1px;
+		background: #ccc;
+		position: absolute;
+		top: 76px;
+		left: 100px;
+	}
+	.mark .mark_middle .mark_zi .r_div {
+		width: 434px;
+		height: 1px;
+		background: #ccc;
+		position: absolute;
+		top: 76px;
+		right: 100px;
+	}
+	.mark .mark_middle .mark_zi h2 {
+		text-align: center;
+		font-size: 18px;
+	}
+	.mark .mark_middle .mark_zi .tit_fu {
+		text-align: center;
+		color: #999;
+	}
+	.mark .mark_bottom {
+		width: 1200px;
+		margin: 0 auto;
+		position: relative;
+		padding-top: 64px;
+	}
+	.mark .mark_bottom .l_div {
+		width: 434px;
+		height: 1px;
+		background: #ccc;
+		position: absolute;
+		top: 76px;
+		left: 100px;
+	}
+	.mark .mark_bottom .r_div {
+		width: 434px;
+		height: 1px;
+		background: #ccc;
+		position: absolute;
+		top: 76px;
+		right: 100px;
+	}
+	.mark .mark_bottom h2 {
+		text-align: center;
+		font-size: 18px;
+	}
+	.mark .mark_bottom .tit_fu {
+		text-align: center;
+		color: #999;
+	}
+	.mark .mark_bottom .list-bottom {
+		margin-top: 46px;
+	}
+	.mark .mark_bottom .list-bottom .list {
+		width: 1108px;
+		margin: 0 auto;
+	}
+	.mark .mark_bottom .list-bottom .list li {
+		float: left;
+		border-bottom: 1px dashed #ccc;
+		border-right: 1px dashed #ccc;
+		padding: 25px 56px;
+	}
+	.mark .mark_bottom .list-bottom .list li img {
+		width: 108px;
+		height: 36px;
+	}
+	.mark .mark_bottom .list-bottom .list li:nth-of-type(5) {
+		border-right: none;
+	}
+	.mark .mark_bottom .list-bottom .list1 li {
+		border-bottom: none;
+	}
+	.mark .mine {
+		margin: 82px auto;
+		width: 200px;
+		height: 56px;
+		line-height: 56px;
+		border: 1px solid #fe982d;
+		border-radius: 4px;
+		text-align: center;
+		position: relative;
+	}
+	.mark .mine .circle {
+		width: 16px;
+		height: 16px;
+		border-radius: 50%;
+		background: #fe982d;
+		position: absolute;
+		border: 7px solid #ffd6ab;
+		top: -15px;
+		right: 35px;
+	}
+	.mark .mine a {
+		color: #fe982d;
+		font-size: 16px;
+	}
+	.footer {
+  height: 170px;
+  text-align: center;
+  background: #212526; }
+  .footer > p {
+    font-size: 14px;
+    color: #f0f1f1; }
+    .footer > p > a {
+      border-right: 1px solid #7E7E7E;
+      padding: 0 13px; }
+      .footer > p > a:hover {
+        color: #2288F6;
+        text-decoration: underline; }
+    .footer > p > a:nth-child(7) {
+      border: none;
+      padding-right: 48px; }
+    .footer > p > span {
+      font-size: 20px;
+      color: #888888; }
+      .footer > p > span > img {
+        vertical-align: middle; }
+      .footer > p > span > a {
+        color: #888888; }
+        .footer > p > span > a:hover {
+          color: #ffffff; }
+  .footer > p:nth-child(1) {
+    padding-top: 50px;
+    padding-bottom: 15px;
+    width: 1070px;
+    margin: 0 auto;
+    border-bottom: 1px solid #888888; }
+  .footer > p:nth-child(2) {
+    padding-top: 15px;
+    font-size: 14px;
+    color: #888888; }
+	/*# sourceMappingURL=mark.css.map */

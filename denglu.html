@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/dengl.css"/>
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	</head>
+	<body>
+		<div id="nav_yd">
+		<div class="yunduan">
+			<a href="#">
+				<img src="img/logo.png" alt="" />
+			</a>
+		</div>
+		<!--这是大的logo-->
+		<div class="yunduan_banner">
+			<img src="img/banner_01.png" alt="" />
+		</div>
+		<!--这是云端banner-->
+		<div class="yonghu">
+			<a href=""><h2 id="biaoti">用户登录</h2></a>
+			<div id="tishi">
+				<a href="#"><p id="p1"></p></a>
+			</div>
+			
+			<div id="zhanghu">
+				<img src="img/dengl_1.png" alt="" />
+				<input type="text" placeholder="&nbsp账号名"  id="nicheng"/>
+			</div>
+			<div id="mima">
+				<img src="img/dengl_2.png" alt="" />
+				<input type="password" placeholder="&nbsp密码" id="mm" />
+			</div>
+			<!--这是密码/-->
+			<div id="xuanze">
+				<div>
+				<input type="checkbox" />
+				<a href="#"><p>记住账号</p></a>
+				</div>
+				
+				<a href="html/zhaohui.html"><p>忘记密码？</p></a>
+			</div>
+			<div id="denglu">
+					<a href="index.html"><input type="button" value="登录"  id="den"/></a>
+			</div>
+			<!--这是登录-->
+			<div id="xin">
+				<a href="html/register.html"><p>>>注册新用户</p></a>
+			</div>
+		</div>
+		<!--这是用户登录-->
+		<div class="yj">
+			<a href="#"><p>coplayy@2015 海云网络科技有限公司版权所有|苏ICP备B1-201100001</p></a>
+		</div>
+		<!--这是底部的页脚-->
+		</div>
+	</body>
+	<script>
+		document.getElementById("nav_yd").style.width=document.documentElement.clientWidth
+														//可视屏幕的宽
+		$(function(){
+			   $("#nicheng").blur(function(){
+                var zhang = /^[A-Za-z0-9]{8,16}$/;
+                if(!zhang.test($("#nicheng").val())){
+                	$("#tishi").css("visibility","visible")
+                	  $("#p1").html("账号或密码输入错误")
+                	  $("#mm").attr("disabled","true");
+                	  $("#den").attr("disabled","false");
+                }else{
+                    $("#p1").html("")
+                    $("#mm").removeAttr("disabled");
+                    $("#den").removeAttr("disabled");
+                }
+            })//昵称的正则
+            
+            $("#mm").blur(function(){
+                var mi = /^[A-Za-z0-9]{8,12}$/;
+                if(!mi.test($("#mm").val())){
+                	$("#tishi").css("visibility","visible")
+                	  $("#p1").html("账号或密码输入错误")
+                	  $("#den").attr("disabled","false");
+                }else{
+                     $("#tishi").css("visibility","hidden")
+                    $("#den").removeAttr("disabled");
+                }
+            })//密码的正则
+
+		})
+</script>	
+</html>
+
